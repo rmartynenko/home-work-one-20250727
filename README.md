@@ -5,3 +5,4 @@
 - [Сырники из творога](cheese_pancakes.md)
 - [Американские блины](amerikanskie-bliny.md)
 - [Классическая шарлотка](klassicheskaja-sharlotka.md)
+- [Курица Пикассо](kurica-pikasso)
