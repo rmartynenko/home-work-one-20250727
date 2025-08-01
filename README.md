@@ -1,8 +1,12 @@
 Список рецептов:
-- [Брауни](brownie.md) 
-- [Банановые панкейки](banana.md)
-- [Картофель «Айдахо»](aidaho.md)
-- [Сырники из творога](cheese_pancakes.md)
-- [Американские блины](amerikanskie-bliny.md)
-- [Классическая шарлотка](klassicheskaja-sharlotka.md)
-- [Курица Пикассо](kurica-pikasso.md)
+- Основные блюда
+  - [Картофель «Айдахо»](aidaho.md)
+  - [Курица Пикассо](kurica-pikasso.md)
+- Выпечка
+  - [Брауни](brownie.md) 
+  - [Банановые панкейки](banana.md)
+- Прочее
+  - [Сырники из творога](cheese_pancakes.md)
+  - [Американские блины](amerikanskie-bliny.md)
+  - [Классическая шарлотка](klassicheskaja-sharlotka.md)
+
