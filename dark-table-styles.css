@@ -1,0 +1,119 @@
+/* Темная таблица - современный стиль */
+.dark-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Заголовки таблицы */
+.dark-table thead {
+    background-color: #2d2d2d;
+}
+
+.dark-table th {
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 2px solid #404040;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+/* Строки таблицы */
+.dark-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.dark-table tbody tr:nth-child(even) {
+    background-color: #242424;
+}
+
+.dark-table tbody tr:hover {
+    background-color: #333333;
+    transform: scale(1.01);
+    transition: all 0.2s ease;
+}
+
+/* Ячейки таблицы */
+.dark-table td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #404040;
+    color: #e0e0e0;
+}
+
+/* Активная строка */
+.dark-table tbody tr.active {
+    background-color: #4a5568;
+    color: #ffffff;
+}
+
+/* Стили для кнопок в таблице */
+.dark-table .btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.2s ease;
+}
+
+.dark-table .btn-primary {
+    background-color: #4299e1;
+    color: white;
+}
+
+.dark-table .btn-primary:hover {
+    background-color: #3182ce;
+}
+
+.dark-table .btn-danger {
+    background-color: #e53e3e;
+    color: white;
+}
+
+.dark-table .btn-danger:hover {
+    background-color: #c53030;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .dark-table {
+        font-size: 0.9em;
+    }
+    
+    .dark-table th,
+    .dark-table td {
+        padding: 10px 15px;
+    }
+}
+
+/* Альтернативный стиль с градиентом */
+.dark-table-gradient {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+.dark-table-gradient thead {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+
+/* Стиль с подсветкой границ */
+.dark-table-neon {
+    border: 1px solid #4299e1;
+    box-shadow: 0 0 10px rgba(66, 153, 225, 0.3);
+}
+
+.dark-table-neon th {
+    background-color: #2d3748;
+    border-bottom: 2px solid #4299e1;
+}
+
+.dark-table-neon tbody tr:hover {
+    box-shadow: inset 0 0 10px rgba(66, 153, 225, 0.2);
+}
